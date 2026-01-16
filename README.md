@@ -54,7 +54,7 @@
 
 ## Live Demo
 
-🌐 **Try it now:** https://knowledge-hub-omts.vercel.app/login
+🌐 **Try it now:** https://knowledge-hub-omts.vercel.app
 
 ### Test Users
 
