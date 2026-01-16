@@ -1,19 +1,7 @@
 # AI-Powered Knowledge Hub
 
 🚀 A full-stack web application for managing, searching, and summarizing articles using AI.
-Live demo: https://knowledge-hub-omts.vercel.app/login
 
-Test Users:
-test123@gmail.com
-test@123
-
-
-test456@gmail.com
-test@456
-
-
-admin@knowledgehub.com
-admin123456
 
 ## Features
 
