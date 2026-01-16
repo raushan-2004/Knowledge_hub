@@ -1,0 +1,93 @@
+/* Light Theme (Default) */
+:root[data-theme='light'] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-hover: #e8e8e8;
+  --text-primary: #313131;
+  --text-secondary: #666666;
+  --border-color: #e0e0e0;
+  --input-bg: #fafafa;
+  --input-border: #d0d0d0;
+  --error-color: #dc3545;
+  --success-color: #28a745;
+  --link-color: #007bff;
+  --link-hover: #0056b3;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme */
+:root[data-theme='dark'] {
+  --bg-primary: #9b9b9b;
+  --bg-secondary: #999797;
+  --bg-hover: #3a3a3a;
+  --text-primary: #5a5a5a;
+  --text-secondary: #393939;
+  --border-color: #404040;
+  --input-bg: #2a2a2a;
+  --input-border: #404040;
+  --error-color: #ff6b6b;
+  --success-color: #51cf66;
+  --link-color: #4da6ff;
+  --link-hover: #80c4ff;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Apply theme colors to elements */
+body,
+html {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  color: inherit;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+p, span, div, h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+input,
+textarea,
+select {
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  border: 1px solid var(--input-border);
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-secondary);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--link-color);
+  outline: none;
+}
+
+button {
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container,
+.card,
+[class*='container'],
+[class*='card'],
+[class*='box'] {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
