@@ -2,6 +2,7 @@
 
 🚀 A full-stack web application for managing, searching, and summarizing articles using AI.
 
+
 ## Features
 
 ✨ **Authentication & Authorization**
